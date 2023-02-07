@@ -21,7 +21,7 @@ export function apply(ctx: Context) {
     // guild: reply to @ only
     if (guildId) {
       const isAt = elements.find(
-        (e) => e.type === "at" && session.id === selfId
+        (e) => e.type === "at" && e.attrs.id === selfId 
       );
       if (!isAt) {
         return next();
