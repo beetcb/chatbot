@@ -2,8 +2,6 @@ import { Context, Schema, h } from "koishi";
 // import { ChatMessage, ChatGPTError } from "chatgpt";
 import { chatIns } from "./utils.js";
 
-const { SELF_ID } = process.env;
-
 const conversationToContext = new Map<
   string,
   { messageId?: string; conversationId?: string }
@@ -17,20 +15,25 @@ export const Config: Schema<Config> = Schema.object({});
 
 export function apply(ctx: Context) {
   ctx.middleware(async (session, next) => {
-    const { content, elements, userId, guildId, selfId } = session;
+    const { elements, userId, channelId, guildId, selfId } = session;
     // guild: reply to @ only
     if (guildId) {
       const isAt = elements.find(
-        (e) => e.type === "at" && e.attrs.id === selfId 
+        (e) => e.type === "at" && e.attrs.id === selfId
       );
       if (!isAt) {
         return next();
       }
     }
 
-    const text = elements.filter((e) => e.type === "text").join(" ");
+    const text = elements
+      .filter((e) => e.type === "text")
+      .map((e) => e.attrs.content)
+      .join(" ")
+      .trim();
+    const sessionID = `${userId}${channelId}`;
     if (text) {
-      const reply = await chatGPT(content, userId);
+      const reply = await chatGPT(text, sessionID);
       reply && session.sendQueued(reply);
     }
 
@@ -40,24 +43,28 @@ export function apply(ctx: Context) {
 
 async function chatGPT(
   content: string,
-  user: string
+  sessionID: string
 ): Promise<string | undefined> {
   try {
-    const { conversationId, messageId } = conversationToContext.get(user) ?? {};
+    const { conversationId, messageId } =
+      conversationToContext.get(sessionID) ?? {};
     const res = await chatIns.sendMessage(content, {
       conversationId,
       parentMessageId: messageId,
+      promptPrefix: "",
+      timeoutMs: 10 * 60 * 1000,
     });
-    maintainConversionContext(res, user);
+    maintainConversionContext(res, sessionID);
     return res.text;
   } catch (e) {
-    console.error(e);
+    // remove conversion context 
+    conversationToContext.delete(sessionID)
     return `Error: code ${e.statusCode}, reason: ${e.message}`;
   }
 }
 
-function maintainConversionContext(res: any, user: string) {
-  conversationToContext.set(user, {
+function maintainConversionContext(res: any, sessionID: string) {
+  conversationToContext.set(sessionID, {
     conversationId: res.conversationId,
     messageId: res.id,
   });

@@ -1763,3 +1763,380 @@
 [38;5;8m2023-02-07 16:01:56[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
 [38;5;8m2023-02-07 16:01:57[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
 [38;5;8m2023-02-07 16:02:00[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 16:33:33[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 16:33:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 16:33:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 16:33:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 16:33:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 16:33:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 16:33:34[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 16:33:35[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 16:33:37[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 16:33:38[0m [W] [38;5;32;1mgocqhttp[0m 检查更新失败！ 
+[38;5;8m2023-02-07 16:33:41[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 16:40:48[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 16:40:49[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 16:40:52[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 16:40:54[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:40:55[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 16:43:19[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 16:43:20[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 16:43:22[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 16:45:26[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 16:45:27[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 16:45:30[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 16:45:33[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:34[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:34[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:34[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:34[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:34[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:35[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:36[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:36[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:36[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:38[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:39[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:45:39[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 16:47:21[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 16:47:22[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 16:47:25[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 17:00:21[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 17:00:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 17:00:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 17:00:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 17:00:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 17:00:22[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 17:00:22[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 17:00:22[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 17:00:23[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 17:00:26[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 17:00:27[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:27[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:27[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:27[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:27[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:27[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:27[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:27[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:32[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:00:32[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 17:08:01[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 17:08:03[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 17:08:05[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 17:10:45[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 17:10:46[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 17:10:48[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 17:15:41[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 17:15:42[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 17:15:44[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 17:20:00[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 17:20:01[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 17:20:04[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 17:20:05[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:05[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:05[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:09[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:09[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:09[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:09[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:10[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:10[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:10[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:10[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:14[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:14[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:20:14[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 17:30:42[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 17:30:43[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
+[38;5;8m2023-02-07 17:30:46[0m [I] [38;5;214;1madapter[0m connect to server: [38;5;214mws://127.0.0.1:6700[0m
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:30:47[0m [W] [38;5;178;1mmarket[0m timeout of 5000ms exceeded
+[38;5;8m2023-02-07 17:46:26[0m [W] [38;5;171;1monebot[0m Error: Error with request get_msg, args: {"message_id":"330294988"}, retcode: 100
+                            at _Internal._get (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:107:11)
+                            at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                            at async _Internal.<computed> [as getMsg] (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:127:20)
+                            at async OneBotBot.getMessage (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:803:18)
+                            at async adaptMessage (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:310:20)
+                            at async adaptSession (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:368:5)
+                            at async dispatchSession (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:355:19)
+[38;5;8m2023-02-07 17:46:26[0m [W] [38;5;32;1mgocqhttp[0m 获取消息时出现错误: get value error: leveldb: not found
+[38;5;8m2023-02-07 18:23:49[0m [W] [38;5;32;1mgocqhttp[0m 获取消息时出现错误: get value error: leveldb: not found
+[38;5;8m2023-02-07 18:23:49[0m [W] [38;5;171;1monebot[0m Error: Error with request get_msg, args: {"message_id":"58454286"}, retcode: 100
+                            at _Internal._get (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:107:11)
+                            at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                            at async _Internal.<computed> [as getMsg] (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:127:20)
+                            at async OneBotBot.getMessage (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:803:18)
+                            at async adaptMessage (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:310:20)
+                            at async adaptSession (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:368:5)
+                            at async dispatchSession (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:355:19)
