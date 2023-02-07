@@ -1,0 +1,24 @@
+{
+  "name": "koishi-plugin-chatbot",
+  "description": "chat bot powered by openai text-chat-davinci-002-20221122 model",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.5"
+  },
+  "dependencies": {
+    "chatgpt": "^4.1.2"
+  }
+}
