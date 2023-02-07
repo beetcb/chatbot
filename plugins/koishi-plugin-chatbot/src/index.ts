@@ -1,4 +1,4 @@
-import { Context, Schema, h } from "koishi";
+import { Context, Schema } from "koishi";
 // import { ChatMessage, ChatGPTError } from "chatgpt";
 import { chatIns } from "./utils.js";
 

@@ -2140,3 +2140,30 @@
                             at async adaptMessage (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:310:20)
                             at async adaptSession (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:368:5)
                             at async dispatchSession (/home/beet/repo/chatbot/node_modules/@satorijs/adapter-onebot/lib/index.js:355:19)
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:basic[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:entry[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m [38;5;15;1mKoishi/4.11.5[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mhelp[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlocales[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mcommands[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mrate-limit[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:console[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78manalytics[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mconsole[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdataview[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mlogger[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mmarket[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78minsight[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mstatus[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:database[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mdatabase-sqlite[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78massets-local[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:adapter[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78msandbox[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78madapter-onebot[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgocqhttp[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78mgroup:custom[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;204;1massets[0m missing config "selfUrl", fallback to "file:" scheme
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m server listening at [38;5;78mhttp://localhost:5140[0m
+[38;5;8m2023-02-07 23:29:33[0m [I] [38;5;78;1mapp[0m apply plugin [38;5;78m./plugins/koishi-plugin-chatbot[0m
+[38;5;8m2023-02-07 23:29:34[0m [W] [38;5;32;1mgocqhttp[0m Protocol -> device lock is disable. http api may fail.
