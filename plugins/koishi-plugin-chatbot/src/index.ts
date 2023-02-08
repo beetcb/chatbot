@@ -51,7 +51,7 @@ async function chatGPT(
     const res = await chatIns.sendMessage(content, {
       conversationId,
       parentMessageId: messageId,
-      promptPrefix: "",
+      promptPrefix: "You will answer in the same language as the question.",
       timeoutMs: 10 * 60 * 1000,
     });
     maintainConversionContext(res, sessionID);
