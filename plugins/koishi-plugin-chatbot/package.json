@@ -19,6 +19,6 @@
     "koishi": "^4.11.5"
   },
   "dependencies": {
-    "chatgpt": "^4.2.0"
+    "chatgpt": "^5.1.3"
   }
 }

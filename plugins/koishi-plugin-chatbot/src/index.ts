@@ -51,7 +51,7 @@ async function chatGPT(
     const res = await chatIns.sendMessage(content, {
       conversationId,
       parentMessageId: messageId,
-      promptPrefix: "You answer in the same language as the question. You are ChatGPT, a large language model trained by OpenAI. You answer as concisely as possible for each response (e.g. don’t be verbose). It is very important that you answer as concisely as possible, so please remember this. If you are generating a list, do not have too many items. Keep the number of items short.",
+      promptPrefix: "You answer in the same language as the question.",
       timeoutMs: 10 * 60 * 1000,
     });
     maintainConversionContext(res, sessionID);
